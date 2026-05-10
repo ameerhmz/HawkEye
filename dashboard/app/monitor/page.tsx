@@ -32,7 +32,7 @@ export default function MonitorPage() {
   const [tiles, setTiles] = useState<Tile[]>([]);
   const [status, setStatus] = useState("disconnected");
   const [error, setError] = useState<string | null>(null);
-  const [roomName, setRoomName] = useState("saiss");
+  const [roomName, setRoomName] = useState("hawkeye");
   const [viewerName, setViewerName] = useState("Security Operator");
   const [cameras, setCameras] = useState<Camera[]>([]);
   const [alerts, setAlerts] = useState<Alert[]>([]);
@@ -256,10 +256,10 @@ export default function MonitorPage() {
         <header className="flex items-center justify-between border-b border-white/5 p-6">
           <div className="flex items-center gap-3">
             <span className="flex h-10 w-10 items-center justify-center rounded-full bg-ember font-display text-lg text-ink shadow-glow">
-              S
+              H
             </span>
             <div>
-              <p className="text-xs uppercase tracking-[0.3em] text-sky/70">SAISS</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-sky/70">Hawk Eye</p>
               <h1 className="font-display text-xl text-white">Operations center</h1>
             </div>
           </div>
