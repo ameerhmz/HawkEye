@@ -1,0 +1,2 @@
+Script started on Sat May  9 14:50:01 2026
+[1m[7m%[27m[1m[0m                                                                                          [0m[27m[24m[Jameerhamza@AMEER-MacBook-Air CCTV % [K[?2004h

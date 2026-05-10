@@ -1,0 +1,13 @@
+version: "2"
+authtoken: 3DTilazldkcJjeFFlx32PLiXz9d_4XbfFosnAABXc55q5rzY9
+
+tunnels:
+  dashboard:
+    addr: http://localhost:3000
+    proto: http
+  backend:
+    addr: http://localhost:8000
+    proto: http
+  livekit:
+    addr: http://localhost:7880
+    proto: http
