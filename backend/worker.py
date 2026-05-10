@@ -32,9 +32,9 @@ ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 # ----------------- Configuration -----------------
 LIVEKIT_URL = os.getenv("LIVEKIT_URL", "ws://localhost:7880")
-LIVEKIT_API_KEY = os.getenv("LIVEKIT_API_KEY", "saiss_dev_key")
-LIVEKIT_API_SECRET = os.getenv("LIVEKIT_API_SECRET", "saiss_dev_secret_2026_xxxxxxxxxxxxxxxx")
-ROOM_NAME = os.getenv("LIVEKIT_ROOM", "saiss")
+LIVEKIT_API_KEY = os.getenv("LIVEKIT_API_KEY", "hawkeye_dev_key")
+LIVEKIT_API_SECRET = os.getenv("LIVEKIT_API_SECRET", "hawkeye_dev_secret_2026_xxxxxxxxxxxxxxxx")
+ROOM_NAME = os.getenv("LIVEKIT_ROOM", "hawkeye")
 API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
 
 # Model Settings

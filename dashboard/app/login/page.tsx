@@ -84,7 +84,7 @@ export default function LoginPage() {
         <header className="flex items-center justify-between">
           <div>
             <p className="text-sm uppercase tracking-[0.4em] text-sky/70">
-              SAISS
+              Hawk Eye
             </p>
             <h1 className="font-display text-3xl text-fog">
               Operator sign-in

@@ -135,7 +135,7 @@ Typical setup time:
 ### Windows (setup.bat):
 ```
 ========================================
-SAISS - Smart AI Surveillance System
+Hawk Eye - Intelligent Surveillance System
 Full Automated Setup - Windows
 ========================================
 

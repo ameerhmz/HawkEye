@@ -86,7 +86,7 @@ start_services() {
   pids+=("$!")
 
   echo "Starting AI Worker..."
-  (cd "$ROOT_DIR/backend" && "$PYTHON_BIN" worker.py) > "$LOG_DIR/worker.log" 2>&1 &
+  (cd "$ROOT_DIR/backend" && LIVEKIT_ROOM=hawkeye "$PYTHON_BIN" worker.py) > "$LOG_DIR/worker.log" 2>&1 &
   pids+=("$!")
 }
 

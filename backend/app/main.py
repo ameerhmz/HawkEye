@@ -34,7 +34,7 @@ cors_allow_origin_regex = os.getenv(
     "CORS_ALLOW_ORIGIN_REGEX", DEFAULT_CORS_ORIGIN_REGEX
 )
 
-app = FastAPI(title="SAISS Backend", version="0.2.0")
+app = FastAPI(title="Hawk Eye Backend", version="0.2.0")
 manager = ConnectionManager()
 
 app.add_middleware(

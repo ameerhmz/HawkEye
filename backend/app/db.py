@@ -9,7 +9,7 @@ load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql+psycopg://saiss:saiss@localhost:5432/saiss",
+    "postgresql+psycopg://hawkeye:hawkeye@localhost:5432/hawkeye",
 )
 
 engine = create_engine(DATABASE_URL, pool_pre_ping=True)

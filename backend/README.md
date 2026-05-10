@@ -1,4 +1,4 @@
-# SAISS Backend (FastAPI)
+# Hawk Eye Backend (FastAPI)
 
 Minimal FastAPI skeleton for camera registration, events, and alerts.
 

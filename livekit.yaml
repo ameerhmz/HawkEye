@@ -3,4 +3,4 @@ rtc:
   port_range_start: 50000
   port_range_end: 60000
 keys:
-  saiss_dev_key: saiss_dev_secret_2026_xxxxxxxxxxxxxxxx
+  hawkeye_dev_key: hawkeye_dev_secret_2026_xxxxxxxxxxxxxxxx
