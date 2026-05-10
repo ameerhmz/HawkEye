@@ -54,6 +54,16 @@ To start the entire infrastructure (Backend, AI Worker, LiveKit, Dashboard, and 
 4.  **AI Tracking**: The AI worker will track persons at 3 FPS and draw emerald green bounding boxes.
 5.  **Alerts**: If a person is detected, the dashboard will flash red and play a synthesized security alarm.
 
+## 🧹 Resetting Camera Data
+
+If you want to remove previous camera registrations and stored snapshot images, run:
+
+```bash
+.venv/bin/python backend/scripts/reset_camera_data.py --no-dry-run
+```
+
+This clears camera rows, related alerts/events/recordings, and snapshot files from both snapshot folders.
+
 ## 📂 Project Structure
 
 *   `dashboard/`: Next.js Frontend with Web Audio API and LiveKit Data Channel integration.
