@@ -17,5 +17,9 @@ __pycache__/
 # OS
 .DS_Store
 
+# Snapshot outputs
+/static/snapshots/
+/backend/static/snapshots/
+
 # Large model weights that exceed GitHub's file size limit
 backend/yolov8x.pt
