@@ -60,8 +60,8 @@ start_tunnels() {
   cat <<EOF > "$ROOT_DIR/dashboard/.env"
 NEXT_PUBLIC_API_BASE_URL=$MASTER_URL/api/backend
 NEXT_PUBLIC_LIVEKIT_URL=$LIVEKIT_URL
-LIVEKIT_API_KEY=saiss_dev_key
-LIVEKIT_API_SECRET=saiss_dev_secret_2026_xxxxxxxxxxxxxxxx
+LIVEKIT_API_KEY=hawkeye_dev_key
+LIVEKIT_API_SECRET=hawkeye_dev_secret_2026_xxxxxxxxxxxxxxxx
 EOF
 
   echo "==========================================================="
