@@ -84,7 +84,7 @@ where python            # Windows - should be in .venv
 ## Ready to Start?
 
 - [ ] All checks above passed
-- [ ] Ready to run `./scripts/dev.sh` (Mac/Linux) or `.\scripts\dev.sh` (Windows)
+- [ ] Ready to run `./scripts/dev.sh` (Mac/Linux) or `.\scripts\dev.bat` (Windows)
 
 ## 🆘 Troubleshooting
 

@@ -47,7 +47,8 @@ source .venv/bin/activate    # Mac/Linux
 # or
 .\.venv\Scripts\Activate.ps1  # Windows (PowerShell)
 
-./scripts/dev.sh              # Start all services
+./scripts/dev.sh              # Mac/Linux
+.\scripts\dev.bat            # Windows
 ```
 
 ---

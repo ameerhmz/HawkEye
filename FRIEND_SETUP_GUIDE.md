@@ -86,7 +86,8 @@ source .venv/bin/activate
 
 Then start all services:
 ```bash
-./scripts/dev.sh
+./scripts/dev.sh   # Mac/Linux
+.\scripts\dev.bat # Windows
 ```
 
 ## 📂 Important Files & Folders

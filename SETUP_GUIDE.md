@@ -60,7 +60,7 @@ Before running the setup script, ensure you have these installed:
 4. **Start the system**:
    ```cmd
    .venv\Scripts\activate.bat
-   scripts\dev.sh
+   scripts\dev.bat
    ```
 
 ### For Windows Users (Option 2: PowerShell)
@@ -88,7 +88,7 @@ Before running the setup script, ensure you have these installed:
 4. **Start the system**:
    ```powershell
    .\.venv\Scripts\Activate.ps1
-   .\scripts\dev.sh
+   .\scripts\dev.bat
    ```
 
 ## 📦 What the Setup Script Does
@@ -151,6 +151,10 @@ deactivate
 ├── setup.sh              # Mac/Linux setup script
 ├── setup.bat             # Windows batch setup script
 ├── setup.ps1             # Windows PowerShell setup script
+├── scripts/
+│   ├── dev.sh            # Mac/Linux master orchestration script
+│   ├── dev.ps1           # Windows PowerShell master orchestration script
+│   └── dev.bat           # Windows batch wrapper
 ├── backend/              # FastAPI backend
 │   ├── requirements.txt
 │   ├── app/
@@ -165,8 +169,6 @@ deactivate
 │   │   ├── layout.tsx
 │   │   └── ...
 │   └── node_modules/     # (created by npm install)
-├── scripts/
-│   └── dev.sh            # Master orchestration script
 └── logs/                 # (created by setup)
 ```
 

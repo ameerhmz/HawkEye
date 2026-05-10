@@ -177,7 +177,7 @@ NEXT STEPS:
 2. Create dashboard\.env.local with your configuration
 3. Run the application:
    .venv\Scripts\activate.bat
-   .\scripts\dev.sh
+   .\scripts\dev.bat
 
 [OK] Setup completed successfully!
 ```

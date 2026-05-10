@@ -40,6 +40,12 @@ To start the entire infrastructure (Backend, AI Worker, LiveKit, Dashboard, and 
 ./scripts/dev.sh
 ```
 
+Windows users can run:
+
+```cmd
+scripts\dev.bat
+```
+
 ### What happens when you run this?
 1.  **Tunneling**: It starts 3 Cloudflare tunnels to expose your local services to the internet securely.
 2.  **Auto-Config**: It automatically grabs the new `trycloudflare.com` URLs and updates your `dashboard/.env`.
@@ -69,7 +75,9 @@ This clears camera rows, related alerts/events/recordings, and snapshot files fr
 *   `dashboard/`: Next.js Frontend with Web Audio API and LiveKit Data Channel integration.
 *   `backend/`: FastAPI server handling camera registration and alert persistence.
 *   `backend/worker.py`: The AI engine running YOLOv8 inference and publishing tracking data.
-*   `scripts/dev.sh`: The master orchestration script.
+*   `scripts/dev.sh`: The Mac/Linux master orchestration script.
+*   `scripts/dev.ps1`: The Windows PowerShell master orchestration script.
+*   `scripts/dev.bat`: The Windows batch wrapper.
 *   `logs/`: Real-time logs for all services.
 
 ## 🛑 Stopping
